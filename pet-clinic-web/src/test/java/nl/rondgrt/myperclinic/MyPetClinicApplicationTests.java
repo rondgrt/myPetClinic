@@ -1,4 +1,4 @@
-package nl.rondgrt.mypetclinic;
+package nl.rondgrt.myperclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

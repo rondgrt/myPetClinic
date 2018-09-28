@@ -1,4 +1,4 @@
-package nl.rondgrt.mypetclinic.model;
+package nl.rondgrt.myperclinic.model;
 
 public class Person {
 

@@ -1,4 +1,4 @@
-package nl.rondgrt.mypetclinic;
+package nl.rondgrt.myperclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
