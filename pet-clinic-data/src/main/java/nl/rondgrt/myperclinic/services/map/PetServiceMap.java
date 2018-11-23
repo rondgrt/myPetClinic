@@ -1,12 +1,11 @@
 package nl.rondgrt.myperclinic.services.map;
 
-import com.sun.xml.internal.bind.v2.model.core.ID;
 import nl.rondgrt.myperclinic.model.Pet;
-import nl.rondgrt.myperclinic.services.CrudService;
+import nl.rondgrt.myperclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends  AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends  AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();

@@ -1,11 +1,12 @@
 package nl.rondgrt.myperclinic.services.map;
 
 import nl.rondgrt.myperclinic.model.Vet;
-import nl.rondgrt.myperclinic.services.CrudService;
+import nl.rondgrt.myperclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
+
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
