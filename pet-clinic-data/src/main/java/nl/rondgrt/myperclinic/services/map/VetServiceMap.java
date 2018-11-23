@@ -2,9 +2,11 @@ package nl.rondgrt.myperclinic.services.map;
 
 import nl.rondgrt.myperclinic.model.Vet;
 import nl.rondgrt.myperclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
