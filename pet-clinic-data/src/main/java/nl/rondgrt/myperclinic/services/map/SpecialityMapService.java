@@ -1,13 +1,13 @@
 package nl.rondgrt.myperclinic.services.map;
 
 import nl.rondgrt.myperclinic.model.Speciality;
-import nl.rondgrt.myperclinic.services.SpecialitiesService;
+import nl.rondgrt.myperclinic.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialitiesMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
