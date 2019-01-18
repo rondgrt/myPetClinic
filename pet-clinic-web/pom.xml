@@ -112,7 +112,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.0.5.RELEASE</version>
                 <configuration>
-                    <mainClass>net.persgroep.ad.service.teaser.Application</mainClass>
+                    <mainClass>nl.rondgrt.myperclinic.MyPetClinicApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
