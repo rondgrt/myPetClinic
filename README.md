@@ -22,3 +22,7 @@ docker-compose up -d
 docker-compose stop
 
 docker-compose start
+
+### Access locla Kibana
+
+http://localhost:5601
