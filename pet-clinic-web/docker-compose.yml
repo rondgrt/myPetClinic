@@ -1,6 +1,14 @@
-version: '3'
+version: '2'
+
 services:
   pet-clinic:
     build: .
     ports:
     - "8080:8080"
+
+
+# USED TO CONNECT TO ELK STACK DOCKER NETWORK - to make that work set ip address of logstash in logback config
+#networks:
+#  default:
+#    external:
+#      name: docker-elk_elk

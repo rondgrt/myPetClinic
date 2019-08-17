@@ -43,6 +43,21 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Logging dependencies -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>5.2</version>
+        </dependency>
+
         <!-- webjars -->
         <dependency>
             <groupId>org.webjars</groupId>
@@ -112,7 +127,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.0.5.RELEASE</version>
                 <configuration>
-                    <mainClass>net.persgroep.ad.service.teaser.Application</mainClass>
+                    <mainClass>nl.rondgrt.myperclinic.MyPetClinicApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

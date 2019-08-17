@@ -16,4 +16,5 @@ USER appuser
 
 WORKDIR /home/appuser
 
-CMD java -cp app:app/lib/* nl.rondgrt.myperclinic.MyPetClinicApplication
+#CMD java -cp app:app/lib/* nl.rondgrt.myperclinic.MyPetClinicApplication
+CMD ["java", "-cp", "app:app/lib/*", "-Dlogging.config'=/home/appuser/app/logback-spring.xml", "nl.rondgrt.myperclinic.MyPetClinicApplication"]
