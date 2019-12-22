@@ -1,5 +1,5 @@
 # myPetClinic
-
+[![CircleCI](https://circleci.com/gh/rondgrt/myPetClinic.svg?style=svg)](https://circleci.com/gh/rondgrt/myPetClinic)
 ## logging to local ELK stack in Docker
 
 git clone https://github.com/deviantony/docker-elk.git
